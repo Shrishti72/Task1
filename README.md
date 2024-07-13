@@ -17,6 +17,3 @@ pip install PyMuPDF
 pip install torch
 pip install transformers
 pip install scikit-learn
-```bash
-
-Semantic Search
