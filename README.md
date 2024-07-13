@@ -17,3 +17,15 @@ pip install PyMuPDF
 pip install torch
 pip install transformers
 pip install scikit-learn
+
+
+Semantic Search
+This script uses a pre-trained transformer model to embed the text and perform a semantic search based on cosine similarity.
+
+Usage
+Import necessary libraries:
+```bash
+import fitz 
+from transformers import AutoModel, AutoTokenizer
+import torch
+import numpy as np
